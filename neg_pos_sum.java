@@ -15,9 +15,9 @@ public class NegPos {
 		for(int i=0; i<size; i++) {
 			System.out.print("Enter element "+(i+1)+" : ");
 			numbers[i] = sc.nextInt();
-			if(numbers[i] > 0) { //
+			if(numbers[i] < 0) { //
 				negsum = negsum + numbers[i];
-			} else {
+			} else if(numbers[i] > 0) {
 				possum = possum + numbers[i];
 			}
 		}
