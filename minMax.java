@@ -19,10 +19,10 @@ public class MinMax {
 		min = a[0];
 		
 		for(int i=1; i<size; i++) {
-			if(a[i] < max) { //
+			if(a[i] > max) { //
 				max = a[i];
 			}
-			if(a[i] > min) { //
+			if(a[i] < min) { //
 				min = a[i];
 			}
 		}
