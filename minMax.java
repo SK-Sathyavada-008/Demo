@@ -1,6 +1,7 @@
 package Krishna_Package;
 import java.util.Scanner;
 
+// min max.java 
 public class MinMax {
 
 	public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package Krishna_Package;
 import java.util.Scanner;
 
+// positive and negative sum 
 public class NegPos {
 
 	public static void main(String[] args) {
