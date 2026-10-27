@@ -7,7 +7,7 @@ public class ActivitySelection {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[][] activities = new int[n][2];
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n-1; i++) {
             activities[i][0] = sc.nextInt();
             activities[i][1] = sc.nextInt();
         }
